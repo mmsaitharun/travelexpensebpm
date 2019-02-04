@@ -62,6 +62,32 @@
 				"key": "formRevision",
 				"value": "dev"
 			}],
+			"customAttributes": [{
+				"id": "tripDetails",
+				"label": "Trip Details",
+				"type": "string",
+				"value": "${context.tripDetails}"
+			}, {
+				"id": "expenseValue",
+				"label": "Expense Value",
+				"type": "string",
+				"value": "${context.expenseValue}"
+			}, {
+				"id": "employeeName",
+				"label": "Employee Name",
+				"type": "string",
+				"value": "${context.employeeName}"
+			}, {
+				"id": "employeeId",
+				"label": "Employee Id",
+				"type": "string",
+				"value": "${context.employeeId}"
+			}, {
+				"id": "requestId",
+				"label": "Request Id",
+				"type": "string",
+				"value": "${context.requestId}"
+			}],
 			"id": "usertask1",
 			"name": "Travel Expense Approval Task",
 			"dueDateRef": "7d6d88cf-6efd-45c0-8774-13eb45645bd9"
